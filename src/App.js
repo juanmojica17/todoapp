@@ -92,14 +92,14 @@ if(loading){
 }else{
   return (
 
-    <div className="h-screen bg-purp flex justify-center items-center">
-      <div className="bg-yellow  w-3/6 h-5/6 text-white px-8 py-8 rounded-2xl ">
-      <div className="flex space-x-28">
+    <div className="h-screen bg-purp flex justify-center items-center ">
+      <div className="w-11/12 bg-yellow    md:bg-yellow  md:w-3/6 md:h-5/6 text-white px-8 py-8 rounded-2xl ">
+      <div className="flex md:space-x-28">
         <div>
         <h1 className="font-bold text-left text-6xl text-purp mx-8 mt-8">ToDo</h1>
         <h2 className="tracking-wider font-bold text-purp text-left text-2xl mx-9">MOJICAPP</h2></div>
         <div>
-        <img  className="ml-24 w-1/3" src={Logo}/></div>
+        <img  className="mt-1/4 md:ml-24 md:w-1/3" src={Logo}/></div>
         </div>
         <div >
         <AddTodo

@@ -10,8 +10,8 @@ const AddTodo = ({ todoTitle, setTodoTitle, handleAddTodo }) => {
         value={todoTitle}
       />
       <br></br>
-      <button className="justify-center items-center bg-purp w-1/4 rounded-full font-bold text-5x1 text-yellow tracking-widest font-mono" onClick={handleAddTodo}>
-       ADD TASK
+      <button className="justify-center items-center bg-purp w-1/4 rounded-full font-bold text-2l text-yellow tracking-widest font-mono" onClick={handleAddTodo}>
+      +
       </button>
     </div>
   );
