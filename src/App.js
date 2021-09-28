@@ -127,12 +127,12 @@ if(loading){
         
       </div>
       <div className="flex justify-center items-center mt-6">
-        <button value="all" onClick={statusHandler} className="border-2 bg-purp w-1/5 mx-0.5 rounded-l-full text-yellow font-bold hover:bg-yellow hover:text-purp">
+        <button value="all" onClick={statusHandler} className="text-xs md:text-base border-2 bg-purp w-1/5 mx-0.5 rounded-l-full text-yellow font-bold hover:bg-yellow hover:text-purp">
             ALL</button>
-        <button value="pending" onClick={statusHandler} className="border-2 bg-purp w-1/5 mx-0.5  text-yellow font-bold hover:bg-yellow hover:text-purp">
-            PENDING</button>
-        <button value="complete" onClick={statusHandler} className="border-2 bg-purp w-1/5 mx-0.5 rounded-r-full text-yellow font-bold hover:bg-yellow hover:text-purp">
-            COMPLETE</button>
+        <button value="pending" onClick={statusHandler} className="text-xs md:text-base border-2 bg-purp w-1/5 mx-0.5  text-yellow font-bold hover:bg-yellow hover:text-purp">
+            PEND</button>
+        <button value="complete" onClick={statusHandler} className="text-xs md:text-base border-2 bg-purp w-1/5 mx-0.5 rounded-r-full text-yellow font-bold hover:bg-yellow hover:text-purp">
+            COMP</button>
         
       </div>
       </div>
